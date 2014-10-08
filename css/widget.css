@@ -1,0 +1,13 @@
+﻿.waf-widget.waf-radio {
+
+}
+.waf-widget.waf-radio li {
+    margin-bottom: 5px !important;
+}
+.waf-widget.waf-radio label {
+    padding-left: 5px;
+}
+.waf-widget.waf-radio.waf-radio-horizontal li {
+    float: left;
+    margin-right: 0 0 0 5px !important;
+}

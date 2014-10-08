@@ -1,0 +1,23 @@
+﻿{
+    "name": "Radio",
+    "studioName": "Radio",
+    "category": "Custom Widgets",
+    "iconPath": "/icons/widget.png",
+    "author": "stephane.puybareau@4d.com",
+    "version": "1.0.0",
+    "copyright": "(c) 2014 4D",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Puyb4d/Radio.git"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 10"},
+    "license": "MIT",
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+        {"id": "DropDown/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Radio/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Radio/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Radio/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
